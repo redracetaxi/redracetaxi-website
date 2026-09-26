@@ -1,0 +1,1000 @@
+/* Basic page setup */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+ /* ================= HERO / MAIN TAXI SECTION ================= */
+    .hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+
+    /* Replace background colour with image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+     url("images/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+
+
+
+/* Header */
+
+.header {
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 25px;
+}
+
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.navigation a:hover {
+    color: #f5c400;
+}
+
+
+
+
+.hero-content {
+    max-width: 800px;
+}
+
+
+.small-title {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.services-section .small-title,
+.why-us-section .small-title {
+    color: #f5c400;
+}
+
+
+.hero h1 {
+    font-size: 52px;
+    margin: 20px 0;
+}
+
+
+.hero-text {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* Buttons */
+
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 15px 28px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.btn-primary {
+    background-color: #fa3310;
+    color: white;
+}
+
+
+.btn-secondary {
+    border: 2px solid rgb(9, 112, 49);
+    color: white;
+}
+
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+
+/* Services */
+
+/* ================= SERVICES ================= */
+
+.services-section {
+    padding: 70px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.section-heading {
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.section-heading h2 {
+    font-size: 38px;
+    margin: 10px 0 15px;
+}
+
+.section-heading p {
+    line-height: 1.7;
+}
+
+.services-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.service-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.service-card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+
+/* Services mobile design */
+
+@media (max-width: 768px) {
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+}
+
+
+/* Booking section */
+
+.booking {
+    padding: 70px 20px;
+    text-align: center;
+    background-color:white;
+}
+
+
+.booking p {
+    margin-bottom: 30px;
+}
+
+
+/* Contact section */
+
+.contact {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: white;
+}
+/* ================= FAQ SECTION ================= */
+
+.faq-section {
+    padding: 70px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.faq-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.faq-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* FAQ mobile design */
+
+@media (max-width: 600px) {
+    .faq-section {
+        padding: 50px 20px;
+    }
+
+    .faq-item {
+        padding: 20px;
+    }
+
+    .faq-item h3 {
+        font-size: 18px;
+    }
+}
+/* ================= PRIVACY POLICY ================= */
+
+.privacy-section {
+    padding: 70px 20px;
+    background-color: white;
+}
+
+.privacy-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.privacy-content h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.privacy-content p {
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Privacy Policy mobile design */
+
+@media (max-width: 600px) {
+    .privacy-section {
+        padding: 50px 20px;
+    }
+
+    .privacy-content h3 {
+        font-size: 19px;
+    }
+}
+/* ================= TERMS & CONDITIONS ================= */
+
+.terms-section {
+    padding: 70px 20px;
+    background-color: #f7f7f7;
+}
+
+.terms-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.terms-content h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.terms-content p {
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Terms & Conditions mobile design */
+
+@media (max-width: 600px) {
+    .terms-section {
+        padding: 50px 20px;
+    }
+
+    .terms-content h3 {
+        font-size: 19px;
+    }
+}
+
+/* Footer */
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #f5c400;
+}
+
+
+/* Mobile design */
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+
+    .hero-text {
+        font-size: 17px;
+    }
+
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .btn {
+        width: 200px;
+    }
+
+}
+/* Booking form */
+
+.booking-form {
+    max-width: 600px;
+    margin: 40px auto 0;
+    text-align: left;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #f5c400;
+}
+
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+
+.form-row .form-group {
+    flex: 1;
+}
+
+
+.booking-form button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+}
+/* WhatsApp floating button */
+
+.whatsapp-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    background-color: #25d366;
+    color: white;
+
+    padding: 15px 20px;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+    z-index: 1000;
+
+}
+
+
+.whatsapp-button:hover {
+    opacity: 0.85;
+}
+/* Vehicle Section */
+
+.vehicles {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.vehicles h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.vehicles-intro {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.vehicle-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.vehicle-card {
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.vehicle-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.vehicle-card h3 {
+    font-size: 24px;
+}
+
+.vehicle-card p {
+    line-height: 1.5;
+}
+/* Vehicle Images */
+
+.vehicle-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+/* Improved mobile design */
+
+@media (max-width: 600px) {
+
+    .header {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navigation {
+        gap: 12px;
+    }
+
+    .navigation a {
+        font-size: 14px;
+    }
+
+    .hero {
+        min-height: 420px;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .services-section,
+    .vehicles {
+        padding: 50px 20px;
+    }
+
+    .services-section h2,
+    .vehicles h2,
+    .booking h2,
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .service-card,
+    .vehicle-card {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+    }
+
+    .booking {
+        padding: 50px 20px;
+    }
+
+    .booking-form {
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 16px;
+    }
+
+    .whatsapp-button {
+        right: 15px;
+        bottom: 15px;
+        padding: 13px 17px;
+        font-size: 14px;
+    }
+
+}
+/* Hero WhatsApp button */
+
+.btn-whatsapp {
+    background-color: #25d366;
+    color: white;
+}
+/* Contact buttons */
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.contact-buttons .btn {
+    min-width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Areas We Serve */
+
+.locations {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: white;
+}
+
+.locations h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.locations-intro {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.location-card {
+    background-color: #f5f5f5;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+.location-card:hover {
+    background-color: #f5c400;
+}
+/* ================= ABOUT US ================= */
+
+.about-us {
+    min-height: 520px;
+
+   
+    background-color:yellowgreen;
+
+ 
+    
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+
+.about-overlay {
+    width: 100%;
+}
+
+
+.about-content {
+    max-width: 750px;
+    padding: 80px 8%;
+}
+
+
+.about-content .small-title {
+    color: #f5c400;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin-bottom: 15px;
+}
+.terms-section .small-title {
+    color:#f5c400;
+}
+
+.about-content h2 {
+    font-size: 42px;
+    line-height: 1.2;
+
+    margin: 0 0 25px;
+}
+
+
+.about-content p:not(.small-title) {
+    font-size: 18px;
+    line-height: 1.7;
+
+    margin: 0 0 18px;
+
+    color: #f1f1f1;
+}
+
+
+.about-content .btn {
+    margin-top: 15px;
+}
+
+
+/* About Us mobile design */
+
+@media (max-width: 600px) {
+
+    .about-us {
+        min-height: 600px;
+    }
+
+    .about-content {
+        padding: 60px 20px;
+    }
+
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+    .about-content p:not(.small-title) {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+}
+.why-us-section {
+    padding: 70px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.why-us-grid {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.why-card {
+    padding: 25px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+
+.why-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.why-card h3 {
+    margin: 10px 0;
+}
+
+.why-card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 900px) {
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .why-us-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Google Maps Section */
+
+.map-section {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.map-section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.map-section p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.map-section .btn {
+    display: inline-block;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 5px 40px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.navigation a {
+    display: inline-block;
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.navigation a:hover {
+    color: red;
+}
+/* ================= MOBILE BOTTOM NAVIGATION ================= */
+
+.mobile-bottom-nav {
+    display: none;
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+
+    .mobile-bottom-nav {
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 72px;
+        background: #e91b23;
+        z-index: 9999;
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .mobile-nav-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        gap: 5px;
+    }
+
+    .mobile-nav-icon {
+        font-size: 25px;
+        line-height: 1;
+    }
+
+    .mobile-nav-item:active {
+        transform: scale(0.95);
+    }
+
+    /* Prevent the bottom navigation from covering page content */
+    body {
+        padding-bottom: 72px;
+    }
+}
+/* Mobile menu button */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #e91b23;
+    cursor: pointer;
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+
+    header {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        z-index: 9998;
+    }
+
+    .navigation.active {
+        display: flex;
+    }
+
+    .navigation a {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+}
+/* Mobile logo text */
+.mobile-logo-text {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-logo-text {
+        display: block;
+        margin-top: 2px;
+        font-size: 14px;
+        font-weight: 700;
+        color: red;
+        line-height: 1;
+    }
+}

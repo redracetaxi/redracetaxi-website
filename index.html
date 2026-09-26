@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redracetaxi</title>
+    <meta name="description" content="Reliable taxi service for local travel, airport transfers and outstation trips. Book your taxi by phone, WhatsApp or online.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+    <div class="logo">
+        <img src="images/redracetaxilogo.png" alt="RedRaceTaxi Logo">
+        <span class="mobile-logo-text">Red Race Taxi</span>
+    </div>
+
+    <nav class="navigation" id="navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#booking">Book Taxi</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+</header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    24/7 TAXI SERVICE
+                </p>
+
+                <h1>
+                    BOOK YOUR TAXI NOW
+                </h1>
+
+                <p class="hero-text">
+                    Local taxi, airport taxi and outstation cab service.
+                    Safe, comfortable and available when you need us.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="tel:+918122455406"
+                        class="btn btn-primary"
+                    >
+                        Book Taxi Now - +91 8122455406
+                    </a>
+
+                    <a
+                        href="https://wa.me/918122455406"
+                        class="btn btn-whatsapp"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        WhatsApp Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BOOK YOUR TAXI ================= -->
+
+        <section class="booking" id="booking">
+
+            <h2>
+                Book Your Taxi
+            </h2>
+
+            <p>
+                Enter your trip details and request a taxi.
+            </p>
+
+            <form
+                class="booking-form"
+                id="bookingForm"
+            >
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="pickup">
+                        Pickup Location
+                    </label>
+
+                    <input
+                        type="text"
+                        id="pickup"
+                        name="pickup"
+                        placeholder="Enter pickup location"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="drop">
+                        Drop Location
+                    </label>
+
+                    <input
+                        type="text"
+                        id="drop"
+                        name="drop"
+                        placeholder="Enter drop location"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="date">
+                            Travel Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="date"
+                            name="date"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="time">
+                            Travel Time
+                        </label>
+
+                        <input
+                            type="time"
+                            id="time"
+                            name="time"
+                            required
+                        >
+
+                    </div>
+                </div>
+
+                <button
+                    type="submit"
+                    class="btn btn-primary"
+                >
+                    Request Taxi
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services-section" id="services">
+
+    <div class="section-heading">
+        <p class="small-title">OUR SERVICES</p>
+        <h2>Taxi Services for Every Journey</h2>
+        <p>
+            Convenient taxi services for local travel, airport transfers,
+            outstation trips and more.
+        </p>
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>🚕 Local Taxi</h3>
+            <p>
+                Comfortable taxi service for travel within the city
+                and nearby areas.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>✈️ Airport Taxi</h3>
+            <p>
+                Convenient pickup and drop-off service for airport travel.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>🛣️ Outstation Taxi</h3>
+            <p>
+                Taxi services for one-way and round-trip outstation journeys.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>🔄 One-Way Taxi</h3>
+            <p>
+                Book a taxi for one-way travel between cities and destinations.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>↔️ Round Trip</h3>
+            <p>
+                Convenient transportation for journeys where you need
+                to return to your starting location.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>⏱️ Hourly Rental</h3>
+            <p>
+                Flexible taxi service when you need a vehicle for
+                multiple stops or several hours.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+        <!-- ================= ABOUT US ================= -->
+
+        <section
+            class="about-us"
+            id="about"
+        >
+
+            <div class="about-overlay">
+
+                <div class="about-content">
+
+                    <p class="small-title">
+                        ABOUT OUR TAXI SERVICE
+                    </p>
+
+                    <h2>
+                        Building Trust Through Every Trip
+                    </h2>
+
+                    
+                         <p>
+    We make every journey simple, comfortable and dependable.
+    Our taxi service provides convenient transportation for local travel,
+    airport transfers, outstation journeys and family trips. We focus on
+    clear communication, comfortable vehicles and a smooth booking
+    experience from pickup to destination.
+</p>
+
+<p>
+    Whether you are travelling for work, a family occasion or a weekend trip,
+    our goal is to provide transportation that fits your schedule and requirements.
+</p>
+
+                    <a
+                        href="#booking"
+                        class="btn btn-primary"
+                    >
+                        Book Your Taxi
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="why-us-section">
+
+    <div class="section-heading">
+        <p class="small-title">WHY CHOOSE US</p>
+        <h2>Simple, Comfortable and Dependable Travel</h2>
+    </div>
+
+    <div class="why-us-grid">
+
+        <div class="why-card">
+            <div class="why-icon">🕐</div>
+            <h3>24/7 Booking</h3>
+            <p>
+                Contact us anytime for your taxi requirements.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">🚕</div>
+            <h3>Comfortable Vehicles</h3>
+            <p>
+                Choose from vehicles suitable for different types of journeys.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">📞</div>
+            <h3>Easy Booking</h3>
+            <p>
+                Book conveniently through phone, WhatsApp or our website.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">🛣️</div>
+            <h3>Local & Outstation</h3>
+            <p>
+                Travel locally or plan an outstation journey with us.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ================= VEHICLES ================= -->
+
+        <section
+            class="vehicles"
+            id="vehicles"
+        >
+
+            <h2>
+                Our Vehicles
+            </h2>
+
+            <p class="vehicles-intro">
+                Choose a comfortable vehicle for your journey.
+            </p>
+
+
+            <div class="vehicle-container">
+
+
+                <div class="vehicle-card">
+
+                    <img
+                        src="images/sedan.jpg"
+                        alt="Sedan Taxi"
+                    >
+
+                    <h3>
+                        Sedan
+                    </h3>
+
+                    <p>
+                        Comfortable taxi for up to 4 passengers.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Local & Airport Trips
+                        </strong>
+                    </p>
+
+                    <p>
+                        Price: Contact us for a quote
+                    </p>
+
+                </div>
+
+
+                <div class="vehicle-card">
+
+                    <img
+                        src="images/suv.jpg"
+                        alt="SUV Taxi"
+                    >
+
+                    <h3>
+                        SUV
+                    </h3>
+
+                    <p>
+                        Spacious vehicle for families and groups.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Local & Outstation Trips
+                        </strong>
+                    </p>
+
+                    <p>
+                        Price: Contact us for a quote
+                    </p>
+
+                </div>
+
+
+                <div class="vehicle-card">
+
+                    <img
+                        src="images/tempo.jpg"
+                        alt="Tempo Taxi"
+                    >
+
+                    <h3>
+                        Tempo Traveller
+                    </h3>
+
+                    <p>
+                        Large vehicle for group travel.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Family & Group Trips
+                        </strong>
+                    </p>
+
+                    <p>
+                        Price: Contact us for a quote
+                    </p>
+
+                </div>
+
+
+                <div class="vehicle-card">
+
+                    <img
+                        src="images/swift.png"
+                        alt="Maruti Swift Taxi"
+                    >
+
+                    <h3>
+                        Swift
+                    </h3>
+
+                    <p>
+                        Comfortable and economical taxi for local trips,
+                        airport transfers and city travel.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Price:
+                        </strong>
+                        Contact us for a quote
+                    </p>
+
+                </div>
+
+
+                <div class="vehicle-card">
+
+                    <img
+                        src="images/xylo.png"
+                        alt="Mahindra Xylo Taxi"
+                    >
+
+                    <h3>
+                        Xylo
+                    </h3>
+
+                    <p>
+                        Spacious vehicle suitable for family trips,
+                        airport transfers and outstation journeys.
+                    </p>
+
+                    <p>
+                        <strong>
+                            Price:
+                        </strong>
+                        Contact us for a quote
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= AREAS WE SERVE ================= -->
+
+        <section
+            class="locations"
+            id="locations"
+        >
+
+            <h2>
+                Areas We Serve
+            </h2>
+
+            <p class="locations-intro">
+                We provide reliable taxi services across the following locations.
+            </p>
+
+
+            <div class="location-container">
+
+                <div class="location-card">
+                    Coimbatore
+                </div>
+
+                <div class="location-card">
+                    Pollachi
+                </div>
+
+                <div class="location-card">
+                    Mettupalayam
+                </div>
+
+                <div class="location-card">
+                    Avinashi
+                </div>
+
+                <div class="location-card">
+                    Sulur
+                </div>
+
+                <div class="location-card">
+                    Annur
+                </div>
+
+                <div class="location-card">
+                    Kinathukadavu
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section
+            class="contact"
+            id="contact"
+        >
+
+            <h2>
+                Contact Us
+            </h2>
+
+            <p>
+                Available 24/7 for taxi bookings.
+            </p>
+
+
+            <div class="contact-buttons">
+
+                <a
+                    href="tel:+918122455406"
+                    class="btn btn-primary"
+                >
+                    Call +91 81224 55406
+                </a>
+
+
+                <a
+                    href="https://wa.me/918122455406"
+                    class="btn btn-whatsapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    WhatsApp Us
+                </a>
+
+            </div>
+
+        </section>
+        <!-- FAQ SECTION -->
+<section class="faq-section">
+
+    <div class="section-heading">
+        <p class="small-title">FAQ</p>
+        <h2>Frequently Asked Questions</h2>
+        <p>
+            Find answers to common questions about our taxi service.
+        </p>
+    </div>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <h3>Do you provide airport taxi service?</h3>
+            <p>
+                Yes, we provide taxi service for airport pickup and drop-off.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do you provide outstation taxi service?</h3>
+            <p>
+                Yes, we provide taxi services for outstation journeys.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I book a taxi in advance?</h3>
+            <p>
+                Yes, you can request a taxi in advance through our website,
+                phone or WhatsApp.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What vehicles are available?</h3>
+            <p>
+                We offer different vehicles including Sedan, SUV and Tempo Traveller.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How can I book a taxi?</h3>
+            <p>
+                You can book by using our website booking form, calling us
+                or sending a WhatsApp message.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Are taxi services available 24/7?</h3>
+            <p>
+                You can contact us anytime for your taxi requirements.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- PRIVACY POLICY -->
+<section id="privacy" class="privacy-section">
+
+    <div class="section-heading">
+        <p class="small-title">PRIVACY POLICY</p>
+        <h2>Your Privacy Matters</h2>
+    </div>
+
+    <div class="privacy-content">
+
+        <h3>Information We Collect</h3>
+        <p>
+            When you contact us or request a taxi, we may receive information
+            such as your name, phone number, pickup location, drop location,
+            travel date and travel time.
+        </p>
+
+        <h3>How We Use Your Information</h3>
+        <p>
+            We use the information you provide to respond to your enquiry,
+            arrange taxi services and communicate with you about your booking.
+        </p>
+
+        <h3>WhatsApp and Phone Communication</h3>
+        <p>
+            If you contact us through phone or WhatsApp, your communication
+            will be handled through those services.
+        </p>
+
+        <h3>Information Sharing</h3>
+        <p>
+            We do not intentionally sell your personal information. Information
+            may be shared when necessary to provide the requested taxi service.
+        </p>
+
+        <h3>Contact Us</h3>
+        <p>
+            If you have questions about this Privacy Policy, please contact us
+            through the phone number or WhatsApp provided on this website.
+        </p>
+
+    </div>
+
+</section>
+<!-- TERMS & CONDITIONS -->
+<section id="terms" class="terms-section">
+
+    <div class="section-heading">
+        <p class="small-title">TERMS & CONDITIONS</p>
+        <h2>Terms of Service</h2>
+    </div>
+
+    <div class="terms-content">
+
+        <h3>Booking</h3>
+        <p>
+            Taxi bookings are subject to vehicle availability and confirmation.
+            Please provide accurate pickup, drop-off, date and time details.
+        </p>
+
+        <h3>Travel Information</h3>
+        <p>
+            Customers are responsible for providing correct travel information
+            when making a booking.
+        </p>
+
+        <h3>Changes and Cancellation</h3>
+        <p>
+            Please contact us as early as possible if you need to change or
+            cancel your taxi booking.
+        </p>
+
+        <h3>Travel Time</h3>
+        <p>
+            Pickup and arrival times may be affected by traffic, weather,
+            road conditions and other circumstances.
+        </p>
+
+        <h3>Vehicle Availability</h3>
+        <p>
+            The vehicle provided may depend on availability and the requirements
+            of the journey.
+        </p>
+
+        <h3>Contact</h3>
+        <p>
+            For questions about a booking or these terms, please contact us
+            through phone or WhatsApp.
+        </p>
+
+    </div>
+
+</section>
+        <!-- Google Maps -->
+
+<section class="map-section">
+
+    <h2>Find Us</h2>
+
+    <p>
+        Find our location on Google Maps.
+    </p>
+
+    <a
+        href="https://maps.app.goo.gl/DdxsqgAXTTibntj27?g_st=awb"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+    >
+        📍 Open Google Maps
+    </a>
+
+</section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 My Taxi Service. All Rights Reserved.
+        </p>
+        <div class="footer-links">
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms & Conditions</a>
+    </div>
+
+    </footer>
+
+
+    <!-- ================= FLOATING WHATSAPP ================= -->
+
+    <a
+        href="https://wa.me/918122455406"
+        class="whatsapp-button"
+        target="_blank"
+    >
+        WhatsApp Us
+    </a>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+    <!-- ================= MOBILE BOTTOM NAVIGATION ================= -->
+<div class="mobile-bottom-nav">
+
+    <a href="#home" class="mobile-nav-item">
+        <span class="mobile-nav-icon">⌂</span>
+        <span>Home</span>
+    </a>
+
+    <a href="https://wa.me/918122455406" 
+       class="mobile-nav-item"
+       target="_blank">
+        <span class="mobile-nav-icon">◉</span>
+        <span>WhatsApp</span>
+    </a>
+
+    <a href="#booking" class="mobile-nav-item">
+        <span class="mobile-nav-icon">▣</span>
+        <span>Booking</span>
+    </a>
+
+    <a href="tel:+918122455406" class="mobile-nav-item">
+        <span class="mobile-nav-icon">☎</span>
+        <span>Call Now</span>
+    </a>
+
+</div>
+
+</body>
+
+</html>
