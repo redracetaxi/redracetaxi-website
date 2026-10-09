@@ -63,7 +63,7 @@ form.addEventListener("submit", async function (event) {
             "Time: " + time;
 
         // Your WhatsApp number
-        const whatsappNumber = "918122455406";
+        const whatsappNumber = "917871483345";
 
         const whatsappURL =
             "https://wa.me/" +
